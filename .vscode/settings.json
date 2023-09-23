@@ -3,6 +3,11 @@
     "[^а-яА-Я]+",
   ],
   "cSpell.words": [
-    "promptsh"
-  ]
+    "Danand",
+    "promptsh",
+    "webp"
+  ],
+  "markdownlint.config": {
+    "MD033": false,
+  }
 }
