@@ -32,12 +32,12 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./${{ steps.dotenv.outputs.site }}
-          destination: ./_site
+          destination: ./${{ steps.dotenv.outputs.site }}/_site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./_site
+          path: ./${{ steps.dotenv.outputs.site }}/_site
 
   deploy:
     environment:
