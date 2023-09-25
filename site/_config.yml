@@ -17,7 +17,7 @@ title: магия терминала
 email: danand@inbox.ru
 description: >- # this means to ignore newlines until "baseurl:"
   Чей-то приватный блог про приклюхи командной строки и что-то вроде программирования.
-baseurl: "/magic-of-terminal" # the subpath of your site, e.g. /blog
+baseurl: "/magic-of-terminal/site" # the subpath of your site, e.g. /blog
 url: "https://danand.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Danand
 
