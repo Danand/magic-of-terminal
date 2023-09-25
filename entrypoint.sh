@@ -23,6 +23,7 @@ elif [ "$1" == "serve" ]; then
     jekyll serve \
       --host "0.0.0.0" \
       --port "${JEKYLL_PORT}" \
+      --incremental \
       --livereload \
       --livereload-port "${JEKYLL_PORT_LIVERELOAD}"
 else
