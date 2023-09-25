@@ -34,6 +34,10 @@ jobs:
           source: ./${{ steps.dotenv.outputs.site }}
           destination: ./${{ steps.dotenv.outputs.site }}/_site
 
+      - name: Debug built files
+        run: |
+          ls . -Ra
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
