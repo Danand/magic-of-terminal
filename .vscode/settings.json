@@ -4,8 +4,11 @@
   ],
   "cSpell.words": [
     "Danand",
+    "dgst",
     "promptsh",
-    "webp"
+    "webp",
+    "xxhash",
+    "xxhsum"
   ],
   "markdownlint.config": {
     "MD033": false,
