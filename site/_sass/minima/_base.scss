@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -253,4 +251,8 @@ table {
 
 img {
   border-radius: 5px;
+}
+
+.hidden {
+  display: none;
 }

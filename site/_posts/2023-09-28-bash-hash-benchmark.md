@@ -3,6 +3,8 @@ layout: post
 title:  "bash-hash-benchmark"
 ---
 
+<span class="hidden">Про замеры хэш-алгоритмов, доступных в <strong>Bash</strong>.</span>
+
 ## Мотивация
 
 Никакой мотивации, ахааха.
