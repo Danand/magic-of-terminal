@@ -178,12 +178,10 @@ function docker-rmi-fzf() {
 }
 ```
 
-<div style="max-width: 800px;">
-  <video controls>
-    <source src="{{ site.baseurl }}/assets/videos/docker-rmi-fzf.webm" type="video/webm">
-    `docker-rmi-fzf` usage video was here.
-  </video>
-</div>
+<video controls width="900" style="max-width: 100%;">
+  <source src="{{ site.baseurl }}/assets/videos/docker-rmi-fzf.webm" type="video/webm">
+  `docker-rmi-fzf` usage video was here.
+</video>
 
 ### На случай, когда мало места на диске
 
