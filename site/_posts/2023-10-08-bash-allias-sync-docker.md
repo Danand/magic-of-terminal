@@ -93,7 +93,7 @@ function docker-stop-fzf() {
 ### Убиваем контейнер (это как стопаем, но только делаем это _без уважения_)
 
 ```bash
-function docker-kill-fконейтнерzf() {
+function docker-kill-fzf() {
   local container
   container="$(docker-container-fzf)"
 
