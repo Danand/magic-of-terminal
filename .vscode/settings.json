@@ -8,6 +8,7 @@
     "numpy",
     "promptsh",
     "venv",
+    "webm",
     "webp",
     "xxhash",
     "xxhsum"

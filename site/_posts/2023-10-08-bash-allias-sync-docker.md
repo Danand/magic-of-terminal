@@ -19,7 +19,7 @@ title:  "bash-alias-sync: docker, fzf"
 
 Для того, чтобы представленные ниже функции работали, нужно чтобы были установлены кое-какие зависимости:
 
-1. Сам [**Docker**](https://docs.docker.com/engine/install/) (ради чего всё это задумывалось).
+1. Сам [**Docker**](https://docs.docker.com/engine/install/) (ради чего всё это задумывалось):
 
    ```bash
    curl \
@@ -28,7 +28,7 @@ title:  "bash-alias-sync: docker, fzf"
    sudo sh "get-docker.sh"
    ```
 
-2. [**Command-line Fuzzy Finder (_aka_ FZF)**](https://github.com/junegunn/fzf).
+2. [**Command-line Fuzzy Finder (_aka_ FZF)**](https://github.com/junegunn/fzf):
 
    ```bash
    sudo apt update && \
@@ -178,10 +178,12 @@ function docker-rmi-fzf() {
 }
 ```
 
-<iframe width="800"
-        src="{{ site.baseurl }}/assets/videos/docker-rmi-fzf.webm"
-        frameborder="0"
-        allowfullscreen />
+<div style="max-width: 800px;">
+  <video controls>
+    <source src="{{ site.baseurl }}/assets/videos/docker-rmi-fzf.webm" type="video/webm">
+    `docker-rmi-fzf` usage video was here.
+  </video>
+</div>
 
 ### На случай, когда мало места на диске
 
