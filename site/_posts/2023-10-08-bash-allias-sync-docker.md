@@ -75,7 +75,8 @@ function docker-logs-fzf() {
   docker logs \
     --follow \
     --timestamps \
-    --details
+    --details \
+    "${container}"
 }
 ```
 
