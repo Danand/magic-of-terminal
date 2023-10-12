@@ -77,7 +77,8 @@ int main() {
 
 Добавляем "фичу" в код с уже имеющимися кудрявыми скобками:
 
-```diff int main() {
+```diff
+int main() {
    if (true) {
      std::cout << "Hello from my application!" << std::endl;
 +    std::cout << "Hello from feature A!" << std::endl;
