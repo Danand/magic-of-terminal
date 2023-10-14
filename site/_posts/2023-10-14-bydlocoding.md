@@ -14,7 +14,7 @@ title:  "bydlocoding"
 "Говнокод" же — это просто часть общего, это просто способ создания легаси в тот момент времени, когда легаси, хронологически — ещё не является "легаси".
 
 <img src="{{ site.baseurl }}/assets/images/auf.jpg"
-     height="480px"
+     height="360px"
      alt="Ауф!" />
 
 Но что же такое "быдлокод"?
@@ -232,7 +232,7 @@ public static List<List<T>> Batch<T>(this List<T> source, int size)
 ```
 
 <img src="{{ site.baseurl }}/assets/images/pomenbshe-list.jpg"
-     height="480px"
+     height="360px"
      alt="List<T> поменьбше" />
 
 Что тут говорить:
