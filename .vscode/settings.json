@@ -7,6 +7,8 @@
     "dgst",
     "numpy",
     "promptsh",
+    "bydlo",
+    "bydlocoding",
     "venv",
     "webm",
     "webp",
