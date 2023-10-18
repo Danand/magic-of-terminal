@@ -49,73 +49,73 @@ logcat -s Unity | ./my-shitty-logcat-colorizer.sh
   <div class="container-log-fit">
     --------- beginning of main
     <br />
-    <span style="color:#0A0">10-18 00:46:36.633 23548 23614 I Unity : [2023-10-18
+    <span class="terminal-green">10-18 00:46:36.633 23548 23614 I Unity : [2023-10-18
       05:46:36.627] UnityInitApplication
     </span>
     <br />
-    <span style="color:#0A0">10-18 00:46:36.633 23548 23614 I Unity :
+    <span class="terminal-green">10-18 00:46:36.633 23548 23614 I Unity :
       [2023-10-18 05:46:36.633] ApplicationModeVR
     </span>
     <br />
-    <span style="color:#0A0">10-18 00:46:36.635 23548 23614 I
+    <span class="terminal-green">10-18 00:46:36.635 23548 23614 I
       Unity : [2023-10-18 05:46:36.635] SetCurrentThreadAffinity
     </span>
     <br />
-    <span style="color:#0A0">10-18 00:46:36.640
+    <span class="terminal-green">10-18 00:46:36.640
       23548 23614 I Unity : [2023-10-18 05:46:36.640] RuntimeInitialize
     </span>
     <br />
-    <span style="color:#0A0">10-18
+    <span class="terminal-green">10-18
       00:46:36.689 23548 23614 I Unity : [2023-10-18 05:46:36.689] MountApk
     </span>
     <br />
-    <span style="color:#0A0">10-18
+    <span class="terminal-green">10-18
       00:46:36.721 23548 23614 I Unity : [2023-10-18 05:46:36.721] MountObbs
     </span>
     <br />
-    <span style="color:#0A0">10-18
+    <span class="terminal-green">10-18
       00:46:36.723 23548 23614 I Unity : [2023-10-18 05:46:36.723] MultiThreadStackTrace_Init
     </span>
     <br />
     <span
-      style="color:#0A0">10-18 00:46:36.723 23548 23614 I Unity : [2023-10-18 05:46:36.723] Signal handler for capture
+      class="terminal-green">10-18 00:46:36.723 23548 23614 I Unity : [2023-10-18 05:46:36.723] Signal handler for capture
       multi-threads stack register success!
     </span>
     <br />
-    <span style="color:#0A0">10-18 00:46:36.724 23548 23614 I Unity :
+    <span class="terminal-green">10-18 00:46:36.724 23548 23614 I Unity :
       [2023-10-18 05:46:36.724] MultiThreadStackTrace init success!
     </span>
     <br />
-    <span style="color:#0A0">10-18 00:46:36.724
+    <span class="terminal-green">10-18 00:46:36.724
       23548 23614 I Unity : [2023-10-18 05:46:36.724] securitylib_Init
     </span>
     <br />
-    <span style="color:#0A0">10-18
+    <span class="terminal-green">10-18
       00:46:36.731 23548 23614 I Unity : [2023-10-18 05:46:36.731] DeviceName 
       <unknown>
       </span>
       <br />
       <span
-        style="color:#0A0">10-18 00:46:36.735 23548 23614 I Unity : [2023-10-18 05:46:36.735] SystemInfo CPU = ARM64 FP ASIMD
+        class="terminal-green">10-18 00:46:36.735 23548 23614 I Unity : [2023-10-18 05:46:36.735] SystemInfo CPU = ARM64 FP ASIMD
         AES, Cores = 8, Memory = 5593mb
       </span>
       <br />
-      <span style="color:#0A0">10-18 00:46:36.735 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:36.735 23548 23614 I Unity :
         [2023-10-18 05:46:36.735] SystemInfo ARM big.LITTLE configuration: 0 big (mask: 0), 8 little (mask:
         255)
       </span>
       <br />
-      <span style="color:#0A0">10-18 00:46:36.735 23548 23614 I Unity : [2023-10-18 05:46:36.735]
+      <span class="terminal-green">10-18 00:46:36.735 23548 23614 I Unity : [2023-10-18 05:46:36.735]
         ApplicationInfo com.miHoYo.GenshinImpact version 4.1.0_18054760_18121248 build
         6cd0a56d-433b-4312-b029-a27e8549f616
       </span>
       <br />
-      <span style="color:#0A0">10-18 00:46:36.735 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:36.735 23548 23614 I Unity :
         [2023-10-18 05:46:36.735] Built from '' branch, Version '2017.4.30f1 (0)', Build type 'Release', Scripting Backend
         'il2cpp'
       </span>
       <br />
-      <span style="color:#0A0">10-18 00:46:37.055 23548 23614 I Unity : [2023-10-18 05:46:37.055] Read
+      <span class="terminal-green">10-18 00:46:37.055 23548 23614 I Unity : [2023-10-18 05:46:37.055] Read
         and enabled 0 persistent code switches
       </span>
       <br />10-18 00:46:39.070 23548 23614 D Unity : GL_OES_EGL_image
@@ -150,1241 +150,1242 @@ logcat -s Unity | ./my-shitty-logcat-colorizer.sh
       GL_QCOM_YUV_texture_gather
       <br />
       <br />
-      <span style="color:#A00">10-18 00:46:39.074 23548 23614 E Unity : [2023-10-18
+      <span class="terminal-red">10-18 00:46:39.074 23548 23614 E Unity : [2023-10-18
         05:46:39.074] HK4EUpload:Try to delete file
         /storage/emulated/0/Android/data/com.miHoYo.GenshinImpact/c124dfe0bc1c644acac37929fc0d8957_tmp
       </span>
       <br />
       <br />
       <span
-        style="color:#A00">10-18 00:46:39.074 23548 23614 E Unity :
+        class="terminal-red">10-18 00:46:39.074 23548 23614 E Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A00">10-18
+      <span class="terminal-red">10-18
         00:46:39.074 23548 23614 E Unity : (Filename: Line: 2233)
       </span>
       <br />
       <br />
-      <span style="color:#A00">10-18
+      <span class="terminal-red">10-18
         00:46:39.074 23548 23614 E Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.304 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:40.304 23548 23614 W Unity :
         [2023-10-18 05:46:40.304] Begin Compile ComputeShader:BuildHIZ.HZBBuildCS
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:40.304 23548 23614 W Unity :
+        class="terminal-yellow">10-18 00:46:40.304 23548 23614 W Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:40.304 23548 23614 W Unity : (Filename: Line: 468)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.304
+      <span class="terminal-yellow">10-18 00:46:40.304
         23548 23614 W Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.315 23548 23614 W Unity : [2023-10-18
+      <span class="terminal-yellow">10-18 00:46:40.315 23548 23614 W Unity : [2023-10-18
         05:46:40.315] End Compile ComputeShader:BuildHIZ.HZBBuildCS
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:40.315 23548 23614 W Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.315 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:40.315 23548 23614 W Unity :
         (Filename: Line: 500)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.315 23548 23614 W Unity
+      <span class="terminal-yellow">10-18 00:46:40.315 23548 23614 W Unity
         :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.316 23548 23614 W Unity : [2023-10-18 05:46:40.316] Begin
+      <span class="terminal-yellow">10-18 00:46:40.316 23548 23614 W Unity : [2023-10-18 05:46:40.316] Begin
         Compile ComputeShader:BuildHIZ.HZBBuildCS
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.316 23548 23614 W
+      <span class="terminal-yellow">10-18 00:46:40.316 23548 23614 W
         Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.316 23548 23614 W Unity : (Filename: Line:
+      <span class="terminal-yellow">10-18 00:46:40.316 23548 23614 W Unity : (Filename: Line:
         468)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.316 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:40.316 23548 23614 W Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:40.317 23548 23614 W Unity : [2023-10-18 05:46:40.317] End Compile
+        class="terminal-yellow">10-18 00:46:40.317 23548 23614 W Unity : [2023-10-18 05:46:40.317] End Compile
         ComputeShader:BuildHIZ.HZBBuildCS
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.317 23548 23614 W Unity
+      <span class="terminal-yellow">10-18 00:46:40.317 23548 23614 W Unity
         :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.317 23548 23614 W Unity : (Filename: Line:
+      <span class="terminal-yellow">10-18 00:46:40.317 23548 23614 W Unity : (Filename: Line:
         500)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.317 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:40.317 23548 23614 W Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:40.317 23548 23614 W Unity : [2023-10-18 05:46:40.317] Begin Compile
+        class="terminal-yellow">10-18 00:46:40.317 23548 23614 W Unity : [2023-10-18 05:46:40.317] Begin Compile
         ComputeShader:BuildHIZ.HZBBuildCS
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.317 23548 23614 W Unity
+      <span class="terminal-yellow">10-18 00:46:40.317 23548 23614 W Unity
         :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.317 23548 23614 W Unity : (Filename: Line:
+      <span class="terminal-yellow">10-18 00:46:40.317 23548 23614 W Unity : (Filename: Line:
         468)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.317 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:40.317 23548 23614 W Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:40.319 23548 23614 W Unity : [2023-10-18 05:46:40.319] End Compile
+        class="terminal-yellow">10-18 00:46:40.319 23548 23614 W Unity : [2023-10-18 05:46:40.319] End Compile
         ComputeShader:BuildHIZ.HZBBuildCS
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.319 23548 23614 W Unity
+      <span class="terminal-yellow">10-18 00:46:40.319 23548 23614 W Unity
         :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.319 23548 23614 W Unity : (Filename: Line:
+      <span class="terminal-yellow">10-18 00:46:40.319 23548 23614 W Unity : (Filename: Line:
         500)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.319 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:40.319 23548 23614 W Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:40.320 23548 23614 W Unity : [2023-10-18 05:46:40.320] Begin Compile
+        class="terminal-yellow">10-18 00:46:40.320 23548 23614 W Unity : [2023-10-18 05:46:40.320] Begin Compile
         ComputeShader:BuildHIZ.HZBBuildCS
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.320 23548 23614 W Unity
+      <span class="terminal-yellow">10-18 00:46:40.320 23548 23614 W Unity
         :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.320 23548 23614 W Unity : (Filename: Line:
+      <span class="terminal-yellow">10-18 00:46:40.320 23548 23614 W Unity : (Filename: Line:
         468)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.320 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:40.320 23548 23614 W Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:40.321 23548 23614 W Unity : [2023-10-18 05:46:40.321] End Compile
+        class="terminal-yellow">10-18 00:46:40.321 23548 23614 W Unity : [2023-10-18 05:46:40.321] End Compile
         ComputeShader:BuildHIZ.HZBBuildCS
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.321 23548 23614 W Unity
+      <span class="terminal-yellow">10-18 00:46:40.321 23548 23614 W Unity
         :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.321 23548 23614 W Unity : (Filename: Line:
+      <span class="terminal-yellow">10-18 00:46:40.321 23548 23614 W Unity : (Filename: Line:
         500)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:40.321 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:40.321 23548 23614 W Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:43.508 23548 23614 I Unity : [2023-10-18 05:46:43.508] Genshin Start Log: GameManager
+        class="terminal-green">10-18 00:46:43.508 23548 23614 I Unity : [2023-10-18 05:46:43.508] Genshin Start Log: GameManager
         Awake - NowTimeStamp:1697579203
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:43.550 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:43.550 23548 23614 I Unity :
         [2023-10-18 05:46:43.549] Genshin Start Log: GameManager Start - NowTimeStamp:1697579203
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:43.550 23548 23614 I Unity : [2023-10-18 05:46:43.550] Genshin Start Log: GameManager
+        class="terminal-green">10-18 00:46:43.550 23548 23614 I Unity : [2023-10-18 05:46:43.550] Genshin Start Log: GameManager
         InitGame - NowTimeStamp:1697579203
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:43.565 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:43.565 23548 23614 I Unity :
         [2023-10-18 05:46:43.565] Load DownloadPref:
         {"resStatus":[0,0],"redownloadUselessAudio":false,"redownloadUselessVideo":false}
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:43.565 23548 23614 I Unity : DJMNDPNJCKD:OMMJEAGFEBP()
+        class="terminal-green">10-18 00:46:43.565 23548 23614 I Unity : DJMNDPNJCKD:OMMJEAGFEBP()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:43.565 23548 23614 I Unity : MoleMole.GameManager:HOOLDBCLMMF()
+        class="terminal-green">10-18 00:46:43.565 23548 23614 I Unity : MoleMole.GameManager:HOOLDBCLMMF()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:43.565 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:43.565 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:43.565 23548 23614 I Unity : (Filename:
         E:/WKSPC/4.1Fix/sourceCode/artifacts/generated/Android/runtime/DebugBindings.gen.cpp Line: 64)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:43.565 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:43.565 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:43.578 23548 23614 I Unity : [2023-10-18 05:46:43.578] IsBaseResVersionHashChanged=> baseResVersionHashInPersist
         = b8ad419157e6112db0fc9fb117ef4a9f, md5 in streamingResVersion =
         b8ad419157e6112db0fc9fb117ef4a9f
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:43.578 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:43.578 23548 23614 I Unity :
         MoleMole.GameManager:HOOLDBCLMMF()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:43.578 23548 23614 I Unity
+      <span class="terminal-green">10-18 00:46:43.578 23548 23614 I Unity
         :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:43.578 23548 23614 I Unity : (Filename:
+      <span class="terminal-green">10-18 00:46:43.578 23548 23614 I Unity : (Filename:
         E:/WKSPC/4.1Fix/sourceCode/artifacts/generated/Android/runtime/DebugBindings.gen.cpp Line: 64)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:43.578 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:43.578 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:44.791 23548 23614 I Unity : [2023-10-18 05:46:44.791] [MTRManager]client create sucess!
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:44.791 23548 23614 I Unity : MoleMole.GameManager:AEHPIEMNCIN()
+        class="terminal-green">10-18 00:46:44.791 23548 23614 I Unity : MoleMole.GameManager:AEHPIEMNCIN()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:44.791 23548 23614 I Unity : MoleMole.GameManager:HOOLDBCLMMF()
+        class="terminal-green">10-18 00:46:44.791 23548 23614 I Unity : MoleMole.GameManager:HOOLDBCLMMF()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:44.791 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:44.791 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:44.791 23548 23614 I Unity : (Filename:
         E:/WKSPC/4.1Fix/sourceCode/artifacts/generated/Android/runtime/DebugBindings.gen.cpp Line: 64)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:44.791 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:44.791 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:44.826 23548 23614 I Unity : [2023-10-18 05:46:44.826] Genshin Start Log: GameManager ShowLogo -
         NowTimeStamp:1697579204
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:44.888 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:44.888 23548 23614 I Unity :
         [2023-10-18 05:46:44.888] Genshin Start Log: LogoPageContext SetupView -
         NowTimeStamp:1697579204
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.884 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:47.884 23548 23614 I Unity :
         [2023-10-18 05:46:47.884] Genshin Start Log: LogoPageContext ClosePage -
         NowTimeStamp:1697579207
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.884 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:47.884 23548 23614 I Unity :
         [2023-10-18 05:46:47.884] Genshin Start Log: GameManager StartHome - NowTimeStamp:1697579207
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.916 23548 23614 I Unity : [2023-10-18 05:46:47.916] Genshin Start Log: GameManager
+        class="terminal-green">10-18 00:46:47.916 23548 23614 I Unity : [2023-10-18 05:46:47.916] Genshin Start Log: GameManager
         ChangeGameWorld Home - NowTimeStamp:1697579207
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.924 23548
+      <span class="terminal-green">10-18 00:46:47.924 23548
         23614 I Unity : [2023-10-18 05:46:47.924] Genshin Start Log: GameManager CreateNewGameWorld Home -
         NowTimeStamp:1697579207
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.939 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:47.939 23548 23614 I Unity :
         [2023-10-18 05:46:47.939] Genshin Start Log: Home LoadScene - NowTimeStamp:1697579207
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity : [2023-10-18 05:46:47.961] Texture streaming preload
+        class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity : [2023-10-18 05:46:47.961] Texture streaming preload
         close!
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity :
         OLHIFOGGMIM:MoveNext()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity :
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:47.961 23548 23614 I Unity : UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity : JBLGLCLGBKE:CIIBFDCPMNB(IEnumerator,
+        class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity : JBLGLCLGBKE:CIIBFDCPMNB(IEnumerator,
         Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity :
         AEJMFLHFEPL:ILMJEICJEOM()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity :
         MoleMole.GameManager:KPHEGEBOONL(WorldType, UInt32, String, String)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:47.961 23548 23614 I Unity : MoleMole.EEGFAFEFKOC:LLDKNDHIIIH()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:47.961 23548 23614 I Unity : JFONKPLEEGN:Invoke()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961
+      <span class="terminal-green">10-18 00:46:47.961
         23548 23614 I Unity : HKELOMNMLFL:Tick()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I
         Unity : MoleMole.GameManager:ONCKPFPBFNI()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I
         Unity : MoleMole.GameManager:Update()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I
         Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity : [ line
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity : [ line
         273]
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity : (Filename: Line:
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity : (Filename: Line:
         273)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.961 23548 23614 I Unity : [2023-10-18 05:46:47.961] Genshin Start Log: GameManager
+        class="terminal-green">10-18 00:46:47.961 23548 23614 I Unity : [2023-10-18 05:46:47.961] Genshin Start Log: GameManager
         FirstChangeToHomeCallback - NowTimeStamp:1697579207
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.966
+      <span class="terminal-green">10-18 00:46:47.966
         23548 23614 I Unity : [2023-10-18 05:46:47.966] Texture streaming preload close!
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity : KAEEPNKKCDK:JKANBEOJLHH()
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity : KAEEPNKKCDK:JKANBEOJLHH()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity : MoleMole.GameManager:ABJOLHANEPM()
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity : MoleMole.GameManager:ABJOLHANEPM()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity : System.Action:Invoke()
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity : System.Action:Invoke()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity : MoleMole.EEGFAFEFKOC:LLDKNDHIIIH()
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity : MoleMole.EEGFAFEFKOC:LLDKNDHIIIH()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity : JFONKPLEEGN:Invoke()
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity : JFONKPLEEGN:Invoke()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity : HKELOMNMLFL:Tick()
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity : HKELOMNMLFL:Tick()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity : MoleMole.GameManager:ONCKPFPBFNI()
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity : MoleMole.GameManager:ONCKPFPBFNI()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity : MoleMole.GameManager:Update()
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity : MoleMole.GameManager:Update()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:47.966 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:47.966 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:47.966 23548 23614 I Unity : [ line 273]
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.966 23548
+      <span class="terminal-green">10-18 00:46:47.966 23548
         23614 I Unity : (Filename: Line: 273)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:47.966 23548 23614 I
+      <span class="terminal-green">10-18 00:46:47.966 23548 23614 I
         Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:48.393 23548 23614 I Unity : [2023-10-18 05:46:48.393]
+      <span class="terminal-green">10-18 00:46:48.393 23548 23614 I Unity : [2023-10-18 05:46:48.393]
         Genshin Start Log: LoginMainPageContext SetupView - NowTimeStamp:1697579208
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity : [2023-10-18 05:46:49.333] On Mobile Platform, FSR quality
+        class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity : [2023-10-18 05:46:49.333] On Mobile Platform, FSR quality
         is fixed on FLOAT16MOBILE
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         UnityEngine.Rendering.PostProcessing.PostProcessLayer:OnEnable()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.333 23548 23614 I Unity : UnityEngine.Object:Internal_CloneSingle(Object)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity : UnityEngine.Object:Instantiate(T)
+        class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity : UnityEngine.Object:Instantiate(T)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         MoleMole.StatExtension:Instantiate(T)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I
         Unity : MoleMole.MonoLoginScene:Awake()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I
         Unity : UnityEngine.Object:Instantiate(Object, Transform, Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.333 23548 23614 I Unity : UnityEngine.Object:Instantiate(T, Transform)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity : MoleMole.StatExtension:Instantiate(T,
+        class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity : MoleMole.StatExtension:Instantiate(T,
         Transform)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         NKMBPJJPGEF:NLBBIPMBEAH()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         NKMBPJJPGEF:SetupView()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         MoleMole.BaseContext:Setup()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         HLFIMACGGAA:OnLoadedView(GameObject)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity
         : System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         JFNKFMBKNBE:HLNJKMGFMFM(MKNNHKMPCOG, GameObject, Action`1)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.333 23548 23614 I Unity : JFNKFMBKNBE:OPKLNDPCFBJ(MKNNHKMPCOG, Action`1, Boolean,
         BaseContext)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
         GPMBIMCJPFC:LCDDBGAEMHI(BaseContext, Action`1, Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333
+      <span class="terminal-green">10-18 00:46:49.333
         23548 23614 I Unity : HLFIMACGGAA:Init()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I
         Unity : GPMBIMCJPFC:JMLINLCCOFM(HLFIMACGGAA, Boolean, LEHAGMFMNLH)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.333 23548 23614 I Unity : GPMBIMCJPFC:AONNCDKCNFG(WorldType, Boolean)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity : OLHIFOGGMIM:MoveNext()
+        class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity : OLHIFOGGMIM:MoveNext()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator,
+        class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator,
         IntPtr)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.333 23548 23614 I Unity : (Filena
+        class="terminal-green">10-18 00:46:49.333 23548 23614 I Unity : (Filena
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.337 23548 23614 W Unity : [2023-10-18 05:46:49.337] Checkboard Setting: None
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity : MoleMole.MonoLoginScene:Awake()
+        class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity : MoleMole.MonoLoginScene:Awake()
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity : UnityEngine.Object:Instantiate(Object, Transform,
+        class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity : UnityEngine.Object:Instantiate(Object, Transform,
         Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity :
         UnityEngine.Object:Instantiate(T, Transform)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.337 23548 23614
+      <span class="terminal-yellow">10-18 00:46:49.337 23548 23614
         W Unity : MoleMole.StatExtension:Instantiate(T, Transform)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.337 23548 23614 W Unity : NKMBPJJPGEF:NLBBIPMBEAH()
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.337 23548 23614 W Unity : NKMBPJJPGEF:SetupView()
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.337 23548 23614 W Unity : MoleMole.BaseContext:Setup()
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.337 23548 23614 W Unity : HLFIMACGGAA:OnLoadedView(GameObject)
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity : System.Action`1:Invoke(T)
+        class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity : System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity : System.Action`1:Invoke(T)
+        class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity : System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity : JFNKFMBKNBE:HLNJKMGFMFM(MKNNHKMPCOG, GameObject,
+        class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity : JFNKFMBKNBE:HLNJKMGFMFM(MKNNHKMPCOG, GameObject,
         Action`1)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity :
         JFNKFMBKNBE:OPKLNDPCFBJ(MKNNHKMPCOG, Action`1, Boolean, BaseContext)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.337 23548 23614 W Unity : GPMBIMCJPFC:LCDDBGAEMHI(BaseContext, Action`1, Boolean)
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity : HLFIMACGGAA:Init()
+        class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity : HLFIMACGGAA:Init()
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity : GPMBIMCJPFC:JMLINLCCOFM(HLFIMACGGAA, Boolean,
+        class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity : GPMBIMCJPFC:JMLINLCCOFM(HLFIMACGGAA, Boolean,
         LEHAGMFMNLH)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity :
         GPMBIMCJPFC:AONNCDKCNFG(WorldType, Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.337 23548 23614
+      <span class="terminal-yellow">10-18 00:46:49.337 23548 23614
         W Unity : OLHIFOGGMIM:MoveNext()
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity :
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.337 23548 23614 W Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity :
         (Filename: E:/WKSPC/4.1Fix/sourceCode/artifacts/generated/Android/runtime/DebugBindings.gen.cpp Line:
         64)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.337 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.337 23548 23614 W Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity : [2023-10-18 05:46:49.339] On Mobile Platform, FSR quality
+        class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity : [2023-10-18 05:46:49.339] On Mobile Platform, FSR quality
         is fixed on FLOAT16MOBILE
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity :
         MEGHBLMAFHN:GMNJPNCOKJF(Camera, Boolean, HHBHHDMINPG, Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.339 23548 23614 I Unity : MoleMole.MonoLoginScene:DGGPJOJAOCN(Camera)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity : MoleMole.MonoLoginScene:Awake()
+        class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity : MoleMole.MonoLoginScene:Awake()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity : UnityEngine.Object:Instantiate(Object, Transform,
+        class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity : UnityEngine.Object:Instantiate(Object, Transform,
         Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity :
         UnityEngine.Object:Instantiate(T, Transform)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.339 23548 23614
+      <span class="terminal-green">10-18 00:46:49.339 23548 23614
         I Unity : MoleMole.StatExtension:Instantiate(T, Transform)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.339 23548 23614 I Unity : NKMBPJJPGEF:NLBBIPMBEAH()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.339 23548 23614 I Unity : NKMBPJJPGEF:SetupView()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.339 23548 23614 I Unity : MoleMole.BaseContext:Setup()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.339 23548 23614 I Unity : HLFIMACGGAA:OnLoadedView(GameObject)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity : System.Action`1:Invoke(T)
+        class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity : System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity : System.Action`1:Invoke(T)
+        class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity : System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity : JFNKFMBKNBE:HLNJKMGFMFM(MKNNHKMPCOG, GameObject,
+        class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity : JFNKFMBKNBE:HLNJKMGFMFM(MKNNHKMPCOG, GameObject,
         Action`1)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity :
         JFNKFMBKNBE:OPKLNDPCFBJ(MKNNHKMPCOG, Action`1, Boolean, BaseContext)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.339 23548 23614 I Unity : GPMBIMCJPFC:LCDDBGAEMHI(BaseContext, Action`1, Boolean)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity : HLFIMACGGAA:Init()
+        class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity : HLFIMACGGAA:Init()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity : GPMBIMCJPFC:JMLINLCCOFM(HLFIMACGGAA, Boolean,
+        class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity : GPMBIMCJPFC:JMLINLCCOFM(HLFIMACGGAA, Boolean,
         LEHAGMFMNLH)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity :
         GPMBIMCJPFC:AONNCDKCNFG(WorldType, Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.339 23548 23614
+      <span class="terminal-green">10-18 00:46:49.339 23548 23614
         I Unity : OLHIFOGGMIM:MoveNext()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity :
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.339 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.339 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.339 23548 23614 I Unity :
         (Filename: E:/WKSPC/4.1Fix/sourceCode/artifacts/generated/Android/runtime/DebugBindin
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity : [2023-10-18 05:46:49.344] Texture streaming preload
+        class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity : [2023-10-18 05:46:49.344] Texture streaming preload
         close!
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         MoleMole.MonoLoginScene:Awake()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         UnityEngine.Object:Instantiate(Object, Transform, Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.344 23548 23614 I Unity : UnityEngine.Object:Instantiate(T, Transform)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity : MoleMole.StatExtension:Instantiate(T,
+        class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity : MoleMole.StatExtension:Instantiate(T,
         Transform)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         NKMBPJJPGEF:NLBBIPMBEAH()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         NKMBPJJPGEF:SetupView()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         MoleMole.BaseContext:Setup()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         HLFIMACGGAA:OnLoadedView(GameObject)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity
         : System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         JFNKFMBKNBE:HLNJKMGFMFM(MKNNHKMPCOG, GameObject, Action`1)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.344 23548 23614 I Unity : JFNKFMBKNBE:OPKLNDPCFBJ(MKNNHKMPCOG, Action`1, Boolean,
         BaseContext)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
         GPMBIMCJPFC:LCDDBGAEMHI(BaseContext, Action`1, Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344
+      <span class="terminal-green">10-18 00:46:49.344
         23548 23614 I Unity : HLFIMACGGAA:Init()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I
         Unity : GPMBIMCJPFC:JMLINLCCOFM(HLFIMACGGAA, Boolean, LEHAGMFMNLH)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.344 23548 23614 I Unity : GPMBIMCJPFC:AONNCDKCNFG(WorldType, Boolean)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity : OLHIFOGGMIM:MoveNext()
+        class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity : OLHIFOGGMIM:MoveNext()
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator,
+        class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator,
         IntPtr)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity : [ line 273]
+        class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity : [ line 273]
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity : (Filename: Line: 273)
+        class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity : (Filename: Line: 273)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.344 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:49.344 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.346 23548 23614 W Unity : [2023-10-18 05:46:49.346] Checkboard Setting: None
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity : MoleMole.MonoLoginScene:Awake()
+        class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity : MoleMole.MonoLoginScene:Awake()
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity : UnityEngine.Object:Instantiate(Object, Transform,
+        class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity : UnityEngine.Object:Instantiate(Object, Transform,
         Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity :
         UnityEngine.Object:Instantiate(T, Transform)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.346 23548 23614
+      <span class="terminal-yellow">10-18 00:46:49.346 23548 23614
         W Unity : MoleMole.StatExtension:Instantiate(T, Transform)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.346 23548 23614 W Unity : NKMBPJJPGEF:NLBBIPMBEAH()
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.346 23548 23614 W Unity : NKMBPJJPGEF:SetupView()
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.346 23548 23614 W Unity : MoleMole.BaseContext:Setup()
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.346 23548 23614 W Unity : HLFIMACGGAA:OnLoadedView(GameObject)
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity : System.Action`1:Invoke(T)
+        class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity : System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity : System.Action`1:Invoke(T)
+        class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity : System.Action`1:Invoke(T)
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity : JFNKFMBKNBE:HLNJKMGFMFM(MKNNHKMPCOG, GameObject,
+        class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity : JFNKFMBKNBE:HLNJKMGFMFM(MKNNHKMPCOG, GameObject,
         Action`1)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity :
         JFNKFMBKNBE:OPKLNDPCFBJ(MKNNHKMPCOG, Action`1, Boolean, BaseContext)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.346 23548 23614 W Unity : GPMBIMCJPFC:LCDDBGAEMHI(BaseContext, Action`1, Boolean)
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity : HLFIMACGGAA:Init()
+        class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity : HLFIMACGGAA:Init()
       </span>
       <br />
       <br />
       <span
-        style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity : GPMBIMCJPFC:JMLINLCCOFM(HLFIMACGGAA, Boolean,
+        class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity : GPMBIMCJPFC:JMLINLCCOFM(HLFIMACGGAA, Boolean,
         LEHAGMFMNLH)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity :
         GPMBIMCJPFC:AONNCDKCNFG(WorldType, Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.346 23548 23614
+      <span class="terminal-yellow">10-18 00:46:49.346 23548 23614
         W Unity : OLHIFOGGMIM:MoveNext()
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity :
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18
+      <span class="terminal-yellow">10-18
         00:46:49.346 23548 23614 W Unity :
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity :
         (Filename: E:/WKSPC/4.1Fix/sourceCode/artifacts/generated/Android/runtime/DebugBindings.gen.cpp Line:
         64)
       </span>
       <br />
       <br />
-      <span style="color:#A50">10-18 00:46:49.346 23548 23614 W Unity :
+      <span class="terminal-yellow">10-18 00:46:49.346 23548 23614 W Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:49.458 23548 23614 I Unity : [2023-10-18 05:46:49.458] Genshin Start Log:
+        class="terminal-green">10-18 00:46:49.458 23548 23614 I Unity : [2023-10-18 05:46:49.458] Genshin Start Log:
         LoginMainPageContext OnAgreement - NowTimeStamp:1697579209
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:49.514 23548 23614 I Unity : [2023-10-18 05:46:49.514] Genshin Start Log: LoginMainPageContext OnPreInit -
         NowTimeStamp:1697579209
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.176 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.176 23548 23614 I Unity :
         [2023-10-18 05:46:50.176] Genshin Start Log: LoginMainPageContext InitServerDispatch -
         NowTimeStamp:1697579210
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.176 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.176 23548 23614 I Unity :
         [2023-10-18 05:46:50.176] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer 1 -
         NowTimeStamp:1697579210
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.176 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.176 23548 23614 I Unity :
         [2023-10-18 05:46:50.176] Genshin Start Log: NetworkManager ConnectGlobalDispatchServer
         https://dispatchosglobal.yuanshen.com/query_region_list - NowTimeStamp:1697579210
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:50.576 23548 23614 I Unity : [2023-10-18 05:46:50.576] Genshin Start Log:
+        class="terminal-green">10-18 00:46:50.576 23548 23614 I Unity : [2023-10-18 05:46:50.576] Genshin Start Log:
         NetworkManager OnConnectGlobalDispatch - NowTimeStamp:1697579210
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:50.578 23548 23614 I Unity : [2023-10-18 05:46:50.578] Genshin Start Log: NetworkManager SetServerDispatchConfig
         isGlobal=True - NowTimeStamp:1697579210
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.581 23548 23614 I
+      <span class="terminal-green">10-18 00:46:50.581 23548 23614 I
         Unity : [2023-10-18 05:46:50.581] Set preload tick time scale to 1.000000
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:50.581 23548 23614 I Unity : CKOJLGMPICC:PAADLIHJLNL(JSONNode,
+        class="terminal-green">10-18 00:46:50.581 23548 23614 I Unity : CKOJLGMPICC:PAADLIHJLNL(JSONNode,
         Boolean)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.581 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.581 23548 23614 I Unity :
         LJINHHECAKE:NFJCJNGPJAC(Byte[], Byte[], CALMLBFFIMH)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.581
+      <span class="terminal-green">10-18 00:46:50.581
         23548 23614 I Unity : LJINHHECAKE:BIFMNBAPKOL(String, Action)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:50.581 23548 23614 I Unity : LBPBMNIPEDJ:MoveNext()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:50.581 23548 23614 I Unity : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator,
         IntPtr)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.581 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.581 23548 23614 I Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:50.581 23548 23614 I Unity : [ line 68]
+        class="terminal-green">10-18 00:46:50.581 23548 23614 I Unity : [ line 68]
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:50.581 23548 23614 I Unity : (Filename: Line: 68)
+        class="terminal-green">10-18 00:46:50.581 23548 23614 I Unity : (Filename: Line: 68)
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:50.581 23548 23614 I Unity :
+        class="terminal-green">10-18 00:46:50.581 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:50.582 23548 23614 I Unity : [2023-10-18 05:46:50.582] Wrote 0 persistent code switches
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:50.582 23548 23614 I Unity : LJINHHECAKE:BIFMNBAPKOL(String,
+        class="terminal-green">10-18 00:46:50.582 23548 23614 I Unity : LJINHHECAKE:BIFMNBAPKOL(String,
         Action)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.582 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.582 23548 23614 I Unity :
         LBPBMNIPEDJ:MoveNext()
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.582 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.582 23548 23614 I Unity :
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:50.582 23548 23614 I Unity :
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.582 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.582 23548 23614 I Unity :
         [ line 210]
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.582 23548 23614 I Unity : (Filename: Line:
+      <span class="terminal-green">10-18 00:46:50.582 23548 23614 I Unity : (Filename: Line:
         210)
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.582 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.582 23548 23614 I Unity :
       </span>
       <br />
       <br />
       <span
-        style="color:#0A0">10-18 00:46:50.593 23548 23614 I Unity : [2023-10-18 05:46:50.593] Genshin Start Log:
+        class="terminal-green">10-18 00:46:50.593 23548 23614 I Unity : [2023-10-18 05:46:50.593] Genshin Start Log:
         LoginMainPageContext OnGlobalDP - NowTimeStamp:1697579210
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18
+      <span class="terminal-green">10-18
         00:46:50.621 23548 23614 I Unity : [2023-10-18 05:46:50.621] Genshin Start Log: LoginMainPageContext OnLogin -
         NowTimeStamp:1697579210
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:50.622 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:50.622 23548 23614 I Unity :
         [2023-10-18 05:46:50.622] Genshin Start Log: MiHoYoSDKManager SDKInit -
         NowTimeStamp:1697579210
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:51.064 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:51.064 23548 23614 I Unity :
         [2023-10-18 05:46:51.064] Genshin Start Log: LoginMainPageContext OnInitResponse -
         NowTimeStamp:1697579211
       </span>
       <br />
       <br />
-      <span style="color:#0A0">10-18 00:46:51.064 23548 23614 I Unity :
+      <span class="terminal-green">10-18 00:46:51.064 23548 23614 I Unity :
         [2023-10-18 05:46:51.064] Genshin Start Log: MiHoYoSDKManager SDKLogin - NowTimeStamp:1697579211
       </span>
+      <br />
   </div>
 </details>

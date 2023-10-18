@@ -160,7 +160,19 @@ code {
   padding-top: 1px;
   padding-bottom: 1px;
   white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: scroll;
+}
+
+.terminal-green {
+  color: #a9dc76
+}
+
+.terminal-yellow {
+  color: #ffd866
+}
+
+.terminal-red {
+  color: #db7070
 }
 
 code {
