@@ -72,3 +72,71 @@
   .vi    { color: #ca9971 } // Name.Variable.Instance
   .il    { color: #ff6188 } // Literal.Number.Integer.Long
 }
+
+.container-log-fit {
+  background: #2d2a2e;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12pt;
+  border: 0;
+  padding: 8px 12px;
+  padding-right: 0;
+  padding-left: 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.terminal-green {
+  color: #a9dc76
+}
+
+.terminal-yellow {
+  color: #ffd866
+}
+
+.terminal-red {
+  color: #db7070
+}
+
+.terminal-blue {
+  color: #78dce8
+}
+
+.terminal-gray {
+  color: #b2b2b2
+}
+
+.terminal-black {
+  color: #000
+}
+
+.terminal-white {
+  color: #fcfcfa
+}
+
+.terminal-purple {
+  color: #c56ec3
+}
+
+.terminal-cyan {
+  color: #78dce8
+}
+
+.terminal-bg-black {
+  background-color: #000
+}
+
+.terminal-bg-blue {
+  background-color: #78dce8
+}
+
+.terminal-bg-green {
+  background-color: #a9dc76
+}
+
+.terminal-bg-red {
+  background-color: #db7070
+}
+
+.terminal-bg-yellow {
+  background-color: #ffd866
+}
