@@ -112,7 +112,7 @@ Attempted import error: 'MyType' is not exported from 'my-package' (imported as 
    ```
 
    Запуск `npx tsc -b` здесь обязательно нужен для того, чтобы **TypeScript** скомпилировался в **JavaScript**
-4. Добавляю скрипт, который компилрует и перерезолвит зависимость от `my-package`:
+4. Добавляю скрипт, который компилирует и перерезолвит зависимость от `my-package`:
 
    ```bash
    #!/bin/bash
