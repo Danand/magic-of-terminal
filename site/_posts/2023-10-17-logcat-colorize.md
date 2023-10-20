@@ -19745,7 +19745,7 @@ adb logcat -s Unity | ccze -A
   </div>
 </details>
 
-### `logcat-colorze`
+### `logcat-colorize`
 
 #### Установка `logcat-colorize`
 

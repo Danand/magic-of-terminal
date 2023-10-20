@@ -49,6 +49,10 @@ title:  "typescript: module"
 - тесты (**Mocha**)
 - пакет под **Unity** — резолвится через UPM, тот самый 0.5 от **NPM**, т.к. это его урезанный форк
 
+<img src="{{ site.baseurl }}/assets/images/three-dragons-npm-yarn-upm.jpg"
+     height="360px"
+     alt="Three dragon heads: NPM, YARN, UPM" />
+
 Все, кроме последнего — написаны на **TypeScript**.
 
 Между ними всеми, нужно было расшарить DTO, чтобы не гадать в каждый раз, что же я там между ними всеми передаю.
@@ -103,7 +107,7 @@ Attempted import error: 'MyType' is not exported from 'my-package' (imported as 
 
    Да, у меня монорепа, и мне, пока что, лень пушить этот пакет в регистри, и тянуть его затем оттуда.
 2. [Конфигурирую `my-package`](#tldr)
-3. Добавляю скрипт в `my-package/package.json`:
+3. Добавляю скрипт в `my-package/package.json` для упаковки **TypeScript** кода в пакет `.tgz`:
 
    ```json
    "scripts": {
@@ -111,13 +115,14 @@ Attempted import error: 'MyType' is not exported from 'my-package' (imported as 
    },
    ```
 
-   Запуск `npx tsc -b` здесь обязательно нужен для того, чтобы **TypeScript** скомпилировался в **JavaScript**
-4. Добавляю скрипт, который компилирует и перерезолвит зависимость от `my-package`:
+   Запуск `npx tsc -b`, здесь — обязательно нужен для того, чтобы **TypeScript** скомпилировался в **JavaScript**
+4. Добавляю скрипт `build-my-package.sh`, который:
+   - сбрасывает кэши `my-package`
+   - компилирует `my-package`
+   - перерезолвит зависимость от `my-package`
 
    ```bash
    #!/bin/bash
-   #
-   # Builds `my-package` and dependencies.
 
    set -e
 
@@ -133,13 +138,20 @@ Attempted import error: 'MyType' is not exported from 'my-package' (imported as 
    (cd frontend && npm run build)
    ```
 
+   Конечно, скрипт можно отрефакторить так, чтобы он умел резолвить все `*.tgz` зависимости для всех проектов в репозитории. Но это, опять же, наверно, тема для отдельного поста.
+
+5. Запускаю `./build-my-package.sh` в каждый раз, когда меняю что-то в `my-package`
+
 ## Критично
 
 - `"declaration": true` — генерирует на выходе также `*.d.ts`-файлы, для зависимых проектов на **TypeScript**
-- ``"types": "lib/index.d.ts"`` — обязательно для импорта на **TypeScript**
-- `"main": "lib/index.js"`, `"types": "lib/index.d.ts"`, `"outDir": "lib"` — название папки должно сопвадать
-- **не** использовать ``"type": "module"``
-- не забыть экспортнуть типы из `src/index.js`:
+- `"types": "lib/index.d.ts"` — обязательно для импорта на **TypeScript**
+- название папки с уже скомпилированными в **JavaScript** файлами (например, `lib`) должно совпадать, в следующих полях:
+  - `"main": "lib/index.js"`
+  - `"types": "lib/index.d.ts"`
+  - `"outDir": "lib"`
+- **не** использовать `"type": "module"`
+- не забыть экспортнуть все типы из `src/index.ts` для того, чтобы они стали видимыми для импорта из `my-package`:
 
   ```typescript
   export { SomeCustomType } from './SomeCustomType'
