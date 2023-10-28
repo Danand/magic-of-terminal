@@ -42,7 +42,7 @@ title:  "terminal-theme: halloween-2023"
 
 Так, стоп. Именно это же мне и нужно!
 
-<video controls width="900" style="max-width: 100%;">
+<video controls autoplay width="900" style="max-width: 100%;">
   <source src="{{ site.baseurl }}/assets/videos/color-wheel-adobe-compound.webm" type="video/webm">
   Adobe Color Wheel: Compound
 </video>
@@ -58,7 +58,7 @@ title:  "terminal-theme: halloween-2023"
 Но нет, это так не работает.<br />
 Ну, либо у меня не получилось найти инструмент цветового круга, в котором можно было бы крутить именно кастомные цвета.
 
-<video controls width="900" style="max-width: 100%;">
+<video controls autoplay width="900" style="max-width: 100%;">
   <source src="{{ site.baseurl }}/assets/videos/color-wheel-adobe-custom.webm" type="video/webm">
   Adobe Color Wheel: Custom
 </video>
@@ -105,7 +105,7 @@ title:  "terminal-theme: halloween-2023"
 
 На самом деле, я знаю про всё это всего лишь из крутилок в любом графическом редакторе. Так, например, можно смоделировать нашу ситуацию в **Krita** (опенсорсный аналог **Adobe Photoshop**):
 
-<video controls width="900" style="max-width: 100%;">
+<video controls autoplay width="900" style="max-width: 100%;">
   <source src="{{ site.baseurl }}/assets/videos/hsl-krita.webm" type="video/webm">
   Krita: Edit HSL
 </video>
