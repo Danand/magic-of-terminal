@@ -13,7 +13,7 @@ title:  "python: json serialization"
 
 ```python
 class Data:
-    def __init(self):
+    def __init__(self):
         self.id = ""
         self.name = ""
         self.amount = 0
